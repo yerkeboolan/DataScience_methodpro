@@ -1,0 +1,20 @@
+1st week / tuesday
+	Data Science - это наука о методах анализа данных и извлечения из них ценной информации.
+	Big Data - Fleshka.
+	Data Science - vse vmeste.
+	- machine learning (работа со структурированными данными)
+	- deep learning (работа со неструктурированными данными)
+	- artifficial intellegence
+	- data engineering (предварительно работаем с данными ---> приведение данных в нормальный вид)
+	- data mining (добыча данных ====> в сумку, сбор данных)
+	- data visualization (визуализация данных)
+	- exploratory data analysis (используется для описания своей модели)
+
+Мода = high frequency obs-ion
+Среднее = x1 + x2 + x3 + x4 + .... + xn / n
+HW1 (вывести формулу медианы) 
+
+
+
+
+	
