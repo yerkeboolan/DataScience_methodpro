@@ -1,18 +1,14 @@
-data("diamonds")
-head(diamonds)
-
-library(caret)
-index <- createDataPartition(mrcars$new, p = 0.8, list = FALSE)
-
-train <-  mtcars[index,]
-test <- mtcars[-index,]
-
 library(rpart)
-decision_tree <- rpart(new~, train)
-predicted <- predict(decision_tree, test)
+library(ggplot2)
 library(ROSE)
-#roc.curve(test$new, predicted)
+library(caret)
 
+data("diamonds")
 
-predicted <- predict(decision_tree,test, type = "class")
-confusionMatrix(diamonds$new, predicted)
+index <- createDataPartition(diamonds$cut,p=0.8,list=FALSE)
+train <- diamonds[index,]
+test <- diamonds[-index,]
+
+des_tree <- rpart(cut~.,train)
+pred <- predict(des_tree,test,type = "class")
+confusionMatrix(test$cut,pred)
