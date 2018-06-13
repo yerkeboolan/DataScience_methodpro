@@ -13,7 +13,19 @@
 Мода = high frequency obs-ion
 Среднее = x1 + x2 + x3 + x4 + .... + xn / n
 HW1 (вывести формулу медианы) 
+.......................................................
 
+2nd week / wednesday
+	Machine Learning
+	делится на два типа: Supervised learning and Unsupervised learning
+	Reinforcement learning - модель один раз научилась (обучение с подкреплением).
+	Кластеризация - группировка по неявному значению.
+	LDA(Linear Discriminant Analysis) - группировка не явному значению.
+	1. Data
+	2. НП(при помощи которого...) и ЗП(нужно найти)	
+	3. ЗП
+	Мера изменчивости
+	
 
 
 
