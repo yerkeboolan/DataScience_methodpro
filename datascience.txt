@@ -15,7 +15,7 @@
 HW1 (вывести формулу медианы) 
 .......................................................
 
-2nd week / wednesday
+1st week / wednesday
 	Machine Learning
 	делится на два типа: Supervised learning and Unsupervised learning
 	Reinforcement learning - модель один раз научилась (обучение с подкреплением).
@@ -25,6 +25,16 @@ HW1 (вывести формулу медианы)
 	2. НП(при помощи которого...) и ЗП(нужно найти)	
 	3. ЗП
 	Мера изменчивости
+......................................................
+
+1st week / thursday
+	Метри исчисления эффективности модели
+	* Accuracy = (TP + TN)/(TP + TN + FP + FN)
+	* Precision = TP / (TP + FP)
+	* Recall = Sensitivity = TP / (TP + FN)
+	* F-measure = 2Precisionrecall/(precision + recall)
+	* ROC curve (Area under the curve) = Precision * Recall
+	* Error rate = 1 - Accuracy
 	
 
 

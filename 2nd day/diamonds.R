@@ -12,3 +12,4 @@ test <- diamonds[-index,]
 des_tree <- rpart(cut~.,train)
 pred <- predict(des_tree,test,type = "class")
 confusionMatrix(test$cut,pred)
+
