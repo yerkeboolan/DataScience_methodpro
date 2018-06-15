@@ -35,6 +35,11 @@ HW1 (вывести формулу медианы)
 	* F-measure = 2Precisionrecall/(precision + recall)
 	* ROC curve (Area under the curve) = Precision * Recall
 	* Error rate = 1 - Accuracy
+......................................................
+
+1st week / friday
+	Markdown-отчет
+	
 	
 
 
