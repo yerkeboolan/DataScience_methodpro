@@ -1,7 +1,4 @@
-library(rpart)
-library(ggplot2)
-library(ROSE)
-library(caret)
+
 
 data("diamonds")
 

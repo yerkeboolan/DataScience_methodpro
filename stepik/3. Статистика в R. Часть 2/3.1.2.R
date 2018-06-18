@@ -1,6 +1,10 @@
-library(psych)
-#filtered.cor <-  function(x) {
-#}
-datafr <- read.csv(url('https://stepic.org/media/attachments/lesson/11504/step6.csv'))
+filtered.cor <- function(x){
+  num_type <- sapply(x, function(x) is.numeric(x))
+  matrix_cor <- cor(x[, num_type])
+  diag(matrix_cor) <- 0
+  return(matrix_cor[which.max(abs(matrix_cor))])
+}
 
-str(datafr)
+
+
+
