@@ -1,4 +1,5 @@
-df <-  mtcars
+model <- lm(wt ~ mpg + disp +hp, df)
 
-library(PerformanceAnalytics)
-chart.Correlation(df)
+
+
+
