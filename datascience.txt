@@ -66,4 +66,19 @@ loss, error, residuals - ОСТАТОК.
 	Интерполяция - замена NA
 	Экстраполяция - прогноз NA
 
+............................................................
+
+
+2nd week / friday
+	Decision type
+	Regression (Linear, Logistic, Mixed, Generalized)
+	Random Forest(regression, classification)
+	Times-series
+		Prophet
+	xhboost
+	flexdashvoard
+	plotly
+	library(crypto) #Coinmarketup
+	library(prophet) #Time series
+	library(lubridate) #Handle date
 	
