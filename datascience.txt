@@ -81,4 +81,19 @@ loss, error, residuals - Œ—“¿“Œ .
 	library(crypto) #Coinmarketup
 	library(prophet) #Time series
 	library(lubridate) #Handle date
+
+.......................................................
+....................................................
+...................................................
+
+3rd week.
+	Õ≈…–ŒÕÕ€≈ —≈“»
+	1) standard NN
+	2) convolution NN (image, video, audio, text)
+	3) Recurrent NN(logical, translate)
+	4) Hybrid NN Architecture
+	
+	Frameworks:
+	Keros, TensorFlow, Theono, pytorch, 
+	Math: lin alg, matan, discr math.
 	
